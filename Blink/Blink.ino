@@ -18,6 +18,7 @@
 // the setup function runs once when you press reset or power the board
 void setup() {
   // initialize digital pin 13 as an output.
+  analogwrite(5, 49);
 }
 
 // the loop function runs over and over again forever
