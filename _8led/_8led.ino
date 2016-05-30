@@ -50,9 +50,9 @@ void setup()
 void loop()                     // run over and over again
 {
   //oneAfterAnotherNoLoop();   //this will turn on each LED one by one then turn each off
-  oneAfterAnotherLoop();   //does the same as oneAfterAnotherNoLoop but with 
+  //oneAfterAnotherLoop();   //does the same as oneAfterAnotherNoLoop but with 
                              //much less typing
-  //oneOnAtATime();          //this will turn one LED on then turn the next one
+  oneOnAtATime();          //this will turn one LED on then turn the next one
                              //on turning the 
                              //former off (one LED will look like it is scrolling 
                              //along the line
