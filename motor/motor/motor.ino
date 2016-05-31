@@ -10,7 +10,10 @@
  * 
  * http://tinyurl.com/d4wht7
  *
+ *
+ * resistor tripple red diode and transistor are needed
  */
+
 
 int motorPin = 9;  // define the pin the motor is connected to
                    // (if you use pin 9,10,11 or 3you can also control speed)
