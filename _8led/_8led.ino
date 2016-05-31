@@ -7,7 +7,10 @@
  *
  * For more information on this circuit http://tinyurl.com/d2hrud
  *
- */
+ *green,blue - brown,gold (resistor)
+ *resistor goes neg then pinout for positive
+ *
+  */
  
 //LED Pin Variables
 int ledPins[] = {2,3,4,5,6,7,8,9}; //An array to hold the pin each LED is connected to
