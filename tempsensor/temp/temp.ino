@@ -27,7 +27,7 @@ void setup()
 void loop()                     // run over and over again
 {
  float temperature = getVoltage(temperaturePin);  //getting the voltage reading from the temperature sensor
- temperature = (temperature - .5) * 100;          //converting from 10 mv per degree wit 500 mV offset
+ temperature = (((temperature - .5) * 100)*1.8) + 32;          //converting from 10 mv per degree wit 500 mV offset
                                                   //to degrees ((volatge - 500mV) times 100)
  Serial.println(temperature);                     //printing the result
  delay(1000);                                     //waiting a second
